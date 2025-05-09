@@ -11,6 +11,7 @@ import (
 	"time"
 
 	"cloud.google.com/go/profiler"
+	"github.com/TicketsBot-cloud/archiverclient"
 	"github.com/TicketsBot-cloud/common/model"
 	"github.com/TicketsBot-cloud/common/observability"
 	"github.com/TicketsBot-cloud/common/premium"
@@ -30,7 +31,6 @@ import (
 	"github.com/TicketsBot-cloud/worker/config"
 	"github.com/TicketsBot-cloud/worker/event"
 	"github.com/TicketsBot-cloud/worker/i18n"
-	"github.com/TicketsBot/archiverclient"
 	"go.uber.org/zap"
 
 	_ "github.com/joho/godotenv/autoload"
