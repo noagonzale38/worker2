@@ -16,6 +16,7 @@ import (
 	"github.com/TicketsBot-cloud/common/premium"
 	"github.com/TicketsBot-cloud/common/rpc"
 	"github.com/TicketsBot-cloud/common/sentry"
+	"github.com/TicketsBot-cloud/gdl/rest/request"
 	"github.com/TicketsBot-cloud/worker/bot/blacklist"
 	"github.com/TicketsBot-cloud/worker/bot/cache"
 	"github.com/TicketsBot-cloud/worker/bot/dbclient"
@@ -30,8 +31,9 @@ import (
 	"github.com/TicketsBot-cloud/worker/event"
 	"github.com/TicketsBot-cloud/worker/i18n"
 	"github.com/TicketsBot/archiverclient"
-	"github.com/rxdn/gdl/rest/request"
 	"go.uber.org/zap"
+
+	_ "github.com/joho/godotenv/autoload"
 )
 
 func main() {

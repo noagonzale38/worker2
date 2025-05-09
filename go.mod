@@ -5,11 +5,13 @@ go 1.23.0
 toolchain go1.24.0
 
 // replace github.com/TicketsBot-cloud/database => ../database
+// replace github.com/TicketsBot-cloud/gdl => ../gdl
 
 require (
 	cloud.google.com/go/profiler v0.4.1
 	github.com/TicketsBot-cloud/common v0.0.0-20250323195529-8fa9730b9caf
 	github.com/TicketsBot-cloud/database v0.0.0-20250320204953-aabca063df41
+	github.com/TicketsBot-cloud/gdl v0.0.0-20250509054940-2045fbe19c06
 	github.com/TicketsBot/analytics-client v0.0.0-20240724103359-30f5dac821e6
 	github.com/TicketsBot/archiverclient v0.0.0-20241012221057-16a920bfb454
 	github.com/caarlos0/env/v10 v10.0.0
@@ -21,10 +23,10 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/jackc/pgx/v4 v4.18.3
 	github.com/jedib0t/go-pretty/v6 v6.5.6
+	github.com/joho/godotenv v1.5.1
 	github.com/json-iterator/go v1.1.12
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.14.0
-	github.com/rxdn/gdl v0.0.0-20241201120412-8fd61c53dd96
 	github.com/schollz/progressbar/v3 v3.8.2
 	github.com/sirupsen/logrus v1.9.3
 	github.com/stretchr/testify v1.10.0
@@ -115,6 +117,7 @@ require (
 	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/rogpeppe/go-internal v1.6.1 // indirect
 	github.com/rs/xid v1.5.0 // indirect
+	github.com/rxdn/gdl v0.0.0-20241012214045-890597169639 // indirect
 	github.com/segmentio/asm v1.2.0 // indirect
 	github.com/shopspring/decimal v1.3.1 // indirect
 	github.com/tatsuworks/czlib v0.0.0-20190916144400-8a51758ea0d9 // indirect
