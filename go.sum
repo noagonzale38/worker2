@@ -31,6 +31,8 @@ github.com/Masterminds/semver/v3 v3.1.1/go.mod h1:VPu/7SZ7ePZ3QOrcuXROw5FAcLl4a0
 github.com/ReneKroon/ttlcache v1.6.0/go.mod h1:DG6nbhXKUQhrExfwwLuZUdH7UnRDDRA1IW+nBuCssvs=
 github.com/TicketsBot-cloud/archiverclient v0.0.0-20250509065859-111843dd3a2c h1:ILMoyqzfmjR+MqrjDL6RZCiHr6/oB4HEgDxGqdqTN6E=
 github.com/TicketsBot-cloud/archiverclient v0.0.0-20250509065859-111843dd3a2c/go.mod h1:NSPLqriWROcz64B7KNsn4cUwcBJzD2nugYQx/3u1b/Y=
+github.com/TicketsBot-cloud/archiverclient v0.0.0-20250514201416-cf23f65eb3fc h1:2EFgb6gQMedsO7YkqUPH1zY8+L6i3sGuV/YAv0gPqhQ=
+github.com/TicketsBot-cloud/archiverclient v0.0.0-20250514201416-cf23f65eb3fc/go.mod h1:Mux1bEPpOHwRw1wo6Fa6qJLJH9Erk9qv1yAIfLi1Wmw=
 github.com/TicketsBot-cloud/common v0.0.0-20250509064208-a2d357175463 h1:ZO2kw9lpsy4umoWFmAt9WKVFb3WvU5oSif2Yw4K7Lj4=
 github.com/TicketsBot-cloud/common v0.0.0-20250509064208-a2d357175463/go.mod h1:PL5j/omFvU0NeyTKCESmOF+3GscaEuM0aqmI4yFcCFY=
 github.com/TicketsBot-cloud/database v0.0.0-20250320215455-17762cd7d39a h1:HFte2Kt+UO1JPS1l9mbEbUPCX69AxdNCqQHb2wtAy4o=
@@ -39,6 +41,8 @@ github.com/TicketsBot-cloud/gdl v0.0.0-20250509054940-2045fbe19c06 h1:PzziB2S58d
 github.com/TicketsBot-cloud/gdl v0.0.0-20250509054940-2045fbe19c06/go.mod h1:CdwBR2egPtxUXjD2CgC9ZwfuB8dz9HPePM8nuG6dt7Y=
 github.com/TicketsBot-cloud/logarchiver v0.0.0-20250509065654-20309348e667 h1:XeFu72lA/oYe+DJgjdU+PfF2t6sxTPXAYdnh9BdqJSo=
 github.com/TicketsBot-cloud/logarchiver v0.0.0-20250509065654-20309348e667/go.mod h1:/V+oF/ZZ93XgYGqf5r60TYwl9osJE+uIkEmkI9uj/84=
+github.com/TicketsBot-cloud/logarchiver v0.0.0-20250514201320-d5141071a6eb h1:BapforRlvTfWP8MX8DTsxVM40oDgQorJVo/cnNGTaKU=
+github.com/TicketsBot-cloud/logarchiver v0.0.0-20250514201320-d5141071a6eb/go.mod h1:pZqkzPNNTqnwKZvCT8kCaTHxrG7HJbxZV83S0p7mmzM=
 github.com/TicketsBot/analytics-client v0.0.0-20240724103359-30f5dac821e6 h1:JigBTrKv/wRkCnz0G9m/EsqmG5DU6pFWBtrXNhcvK3E=
 github.com/TicketsBot/analytics-client v0.0.0-20240724103359-30f5dac821e6/go.mod h1:9Z9qP/yovb6DUe1KlzgN2wicc+8ey6MMoxfynFbMyRg=
 github.com/TicketsBot/common v0.0.0-20241117150316-ff54c97b45c1 h1:FqC1KGOsmB+ikvbmDkyNQU6bGUWyfYq8Ip9r4KxTveY=
@@ -274,6 +278,8 @@ github.com/mattn/go-runewidth v0.0.16 h1:E5ScNMtiwvlvB5paMFdw9p4kSQzbXFikJ5SQO6T
 github.com/mattn/go-runewidth v0.0.16/go.mod h1:Jdepj2loyihRzMpdS35Xk/zdY8IAYHsh153qUoGf23w=
 github.com/minio/crc64nvme v1.0.1 h1:DHQPrYPdqK7jQG/Ls5CTBZWeex/2FMS3G5XGkycuFrY=
 github.com/minio/crc64nvme v1.0.1/go.mod h1:eVfm2fAzLlxMdUGc0EEBGSMmPwmXD5XiNRpnu9J3bvg=
+github.com/minio/crc64nvme v1.0.2 h1:6uO1UxGAD+kwqWWp7mBFsi5gAse66C4NXO8cmcVculg=
+github.com/minio/crc64nvme v1.0.2/go.mod h1:eVfm2fAzLlxMdUGc0EEBGSMmPwmXD5XiNRpnu9J3bvg=
 github.com/minio/md5-simd v1.1.2 h1:Gdi1DZK69+ZVMoNHRXJyNcxrMA4dSxoYHZSQbirFg34=
 github.com/minio/md5-simd v1.1.2/go.mod h1:MzdKDxYpY2BT9XQFocsiZf/NKVtR7nkE4RoEpN+20RM=
 github.com/minio/minio-go/v7 v7.0.91 h1:tWLZnEfo3OZl5PoXQwcwTAPNNrjyWwOh6cbZitW5JQc=
