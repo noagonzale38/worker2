@@ -37,15 +37,15 @@ func (e CustomEmoji) BuildEmoji() *emoji.Emoji {
 }
 
 var (
-	EmojiId         = NewCustomEmoji("id", 1327350136170479638, false)
-	EmojiOpen       = NewCustomEmoji("open", 1327350149684400268, false)
-	EmojiOpenTime   = NewCustomEmoji("opentime", 1327350161206153227, false)
-	EmojiClose      = NewCustomEmoji("close", 1327350171121614870, false)
-	EmojiCloseTime  = NewCustomEmoji("closetime", 1327350182806949948, false)
-	EmojiReason     = NewCustomEmoji("reason", 1327350192801972224, false)
+	EmojiId         = NewCustomEmoji("ticketid", 1376363561063940196, false)
+	EmojiOpen       = NewCustomEmoji("open", 1376363648301269073, false)
+	EmojiOpenTime   = NewCustomEmoji("open_time", 1376363643175964794, false)
+	EmojiClose      = NewCustomEmoji("close", 1376363636242776155, false)
+	EmojiCloseTime  = NewCustomEmoji("open_time", 1376363643175964794, false)
+	EmojiReason     = NewCustomEmoji("reason", 1376363646690525295, false)
 	EmojiSubject    = NewCustomEmoji("subject", 1327350205896458251, false)
 	EmojiTranscript = NewCustomEmoji("transcript", 1327350249450111068, false)
-	EmojiClaim      = NewCustomEmoji("claim", 1327350259965235233, false)
+	EmojiClaim      = NewCustomEmoji("claimed", 1376363645050814535, false)
 	EmojiPanel      = NewCustomEmoji("panel", 1327350268974600263, false)
 	EmojiRating     = NewCustomEmoji("rating", 1327350278973952045, false)
 	EmojiStaff      = NewCustomEmoji("staff", 1327350290558746674, false)
